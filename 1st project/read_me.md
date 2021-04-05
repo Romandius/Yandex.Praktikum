@@ -8,7 +8,7 @@ The results of the study will be taken into account when building a credit scori
 
 Data description
 
-children — the number of children in the family
+children — the number of children in the family </nt>
 days_employed — total work experience in days dob_years
 — age of the client in years
 education — level of education of the client
