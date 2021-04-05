@@ -68,3 +68,7 @@ festival_date — date of the festival,
 festival_city — city of the festival,
 
 festival_name — the name of the festival.
+
+
+![alt tag](https://pictures.s3.yandex.net/resources/photo_2019-11-08_14-08-31_1573733426.jpg)
+
