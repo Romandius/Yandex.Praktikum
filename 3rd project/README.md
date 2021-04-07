@@ -2,42 +2,57 @@ Statistical data analysis
 
 Study of objects and their relationships using statistical methods. Samples and statistical significance. Detection and processing of anomalies. Project. Analyze the tariffs of the federal mobile operator.
 
-Project description
+## Tasks
 
-You are an analyst at Megaline, a federal mobile operator. Customers are offered two tariff plans: "Smart" and "Ultra". To adjust the advertising budget, the commercial department wants to understand which tariff brings in more money.
+- Calculate and add to the table:
+- the number of calls made and minutes spent on the conversation by month;
+  - number of messages sent by month;
+  - the amount of Internet traffic consumed by month;
+  - monthly revenue from each user (subtract the free limit from the total number of calls, messages and Internet traffic; multiply the remainder by the value from the tariff plan; add the subscription fee corresponding to the tariff plan);
+- Describe the behavior of the operator's customers based on the sample: how many minutes of conversation, how many messages and how much Internet traffic is required by users of each tariff per month; 
+- Calculate the average quantity, variance and standard deviation, build histograms, describe the distributions;
+- Test hypotheses:
+- the average revenue of users of the "Ultra" and "Smart" tariffs differs;
+  - the average revenue of users from Moscow differs from the revenue of users from other regions.
 
-You will have to make a preliminary analysis of the tariffs on a small sample of customers. You have at your disposal the data of 500 users of Megalain»: who they are, where they come from, what tariff they use, how many calls and messages each sent in 2018. You need to analyze the behavior of customers and make a conclusion — which tariff is better.
+## Used libraries:
+- *pandas*
+- *pymystem3*
+- *datetime*
+- *matplotlib*
+- *seaborn*
+- *numpy*
+- *stats*
 
-Description of tariffs
+## Data
 
-Smart pricing plan»
-
-
-Monthly fee: 550 rubles
-
-Included are 500 minutes of talk time, 50 messages, and 15 GB of Internet traffic
-
-The cost of services in excess of the tariff package:
-
-minute of conversation: 3 rubles
-
-message: 3 rubles
-
-1 GB of Internet traffic: 200 rubles
-
-
-The "Ultra" tariff»
-
-Monthly fee: 1950 rubles
-
-3000 minutes of conversation, 1000 messages and 30 GB of Internet traffic are included
-
-The cost of services in excess of the tariff package:
-
-minute of conversation: 1 ruble
-
-message: 1 ruble
-
-1 GB of Internet traffic: 150 rubles
-
-Please note: "Megaline" always rounds up the values of minutes and megabytes. If the user spoke for only 1 second, the entire minute is counted in the tariff.
+Four datasets with the data of the conditional operator "Megaline" were available for analysis:
+- Information about users:
+  - User name;
+  - User's last name;
+  - User's age;
+  - Date of tariff activation (day, month, year);
+  - Date of termination of use of the tariff (if the value is omitted, the tariff was still valid at the time of data upload);
+  - The user's city of residence;
+  - Name of the tariff plan.
+  
+- Call information:
+- Call date;
+  - Call duration in minutes.
+  
+- Information about messages:
+  - Date of the message.
+  
+- Information about Internet sessions:
+  - The amount of Internet traffic spent per session (in megabytes);
+  - Date of the Internet session.
+  
+- Information about the rates:
+  - Name of the tariff;
+  - Monthly subscription fee in rubles;
+  - The number of minutes of conversation per month included in the subscription fee;
+  - The number of messages per month included in the subscription fee;
+  - The amount of Internet traffic included in the subscription fee (in megabytes);
+  - The cost of a minute of conversation in excess of the tariff package (for example, if the tariff includes 100 minutes of conversation per month, then 101 minutes will be charged);
+  - The cost of sending a message in excess of the tariff package;
+  - The cost of an additional gigabyte of Internet traffic in excess of the tariff package (1 gigabyte = 1024 megabytes).
