@@ -9,7 +9,7 @@ The files may not open the first time, in this case, I recommend reloading the p
 link: https://colab.research.google.com/notebooks/intro.ipynb#recent=true
 
 
-##List of projects:
+## List of projects:
 - Study of the reliability of borrowers - analysis of bank data
 - Sale of apartments in St. Petersburg — analysis of the real estate market
 - Determination of a favorable tariff for a telecom company
