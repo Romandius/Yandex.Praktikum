@@ -14,6 +14,28 @@ Each folder includes a project file and a description of the project, which is l
 - Analysis of user behavior in the mobile app
 
 
+## List of skills acquired while working on projects
+- technical knowledge and skills;
+- taking into account the specifics of the business and understanding which algorithms and methods are best used;
+- behavioral adequacy — the ability to adequately request information and help, to present their results to the team.
+
+## List of libraries used in these projects
+- Pandas
+- PyMystem3
+- Matplotlib
+- NumPy
+- SciPy
+- Seaborn
+- Plotly
+- SQLAlchemy
+- PostgreSQL
+- Scikit-learn
+- math
+- stats
+- create_engine
+ and many others
+
+
 ## Warning 
 - The files may not open the first time, in this case, I recommend reloading the page several times, or using the google colab service, where you can choose the source for downloading the Github notepad.
 
