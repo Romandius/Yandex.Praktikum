@@ -35,3 +35,33 @@ User_Score — user rating (maximum of 10)
 
 Rating-rating from the ESRB organization (English Entertainment Software Rating Board). This association determines the rating of computer games and assigns them a suitable age category.
 The data for 2016 may be incomplete.
+
+
+## Tasks
+
+- Study the sales of games by number in different years;
+- Learn how sales have changed across platforms;
+- Identify the platforms with the highest total sales and build a distribution by year;
+- Determine the characteristic lifetime of the platform;
+- Based on this period, select the data for the current period, discard the rest;
+- Find out which platforms are leading in sales, rising or falling;
+- Select multiple potentially profitable platforms;
+- Study how user and critic reviews affect sales within one popular platform, build a scatterplot, and calculate the correlation between reviews and sales;
+- Correlate the findings with game sales on other platforms;
+- Find out if genres with high and low sales stand out;
+- Determine the waiting list of users in each region:
+- The most popular platforms (top 5), describe the differences in sales shares;
+- Most popular genres (top 5), explain the difference;
+- Whether the ESRB rating affects sales in a particular region.
+- Test hypotheses:
+- Average user ratings of the Xbox One and PC platforms are the same;
+- Average user ratings of the genres Action (English "action", action games) and Sports (English. "sports competitions») they differ.
+
+## Used libraries:
+- *pandas*
+- *pymystem3*
+- *datetime*
+- *matplotlib*
+- *seaborn*
+- *numpy*
+- *stats*
