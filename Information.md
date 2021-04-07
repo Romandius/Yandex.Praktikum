@@ -4,4 +4,11 @@ Each folder includes a project file and a description of the project, which is l
 
 The files may not open the first time, in this case, I recommend reloading the page several times, or using the google colab service, where you can choose the source for downloading the Github notepad.
 
+[Reload.pdf](https://github.com/Romandius/Yandex.Praktikum/files/6271560/Reload.pdf)
+
 link: https://colab.research.google.com/notebooks/intro.ipynb#recent=true
+
+[Google collab.pdf](https://github.com/Romandius/Yandex.Praktikum/files/6271576/Google.collab.pdf)
+
+
+
