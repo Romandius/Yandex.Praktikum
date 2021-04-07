@@ -4,11 +4,11 @@ Each folder includes a project file and a description of the project, which is l
 
 The files may not open the first time, in this case, I recommend reloading the page several times, or using the google colab service, where you can choose the source for downloading the Github notepad.
 
-https://ibb.co/s62gG8x
+![alt tag](https://ibb.co/s62gG8x)
 
 link: https://colab.research.google.com/notebooks/intro.ipynb#recent=true
 
-https://ibb.co/ZhyHtsc
+![alt tag](https://ibb.co/ZhyHtsc)
 
 
 
