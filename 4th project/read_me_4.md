@@ -4,10 +4,10 @@ Preparing data for analysis. Preliminary study of the dataset. Formulation and t
 
 Project description
 
-You work in the online store "Streamchik", which sells computer games around the world. Historical data on game sales, user and expert ratings, genres and platforms (for example, Xbox or PlayStation) are available from open sources. You need to identify the patterns that determine the success of the game. This will allow you to place a bet on a potentially popular product and plan advertising campaigns.
+This project is being implemented for the online store "Streamchik", which sells computer games around the world. Historical data on game sales, user and expert ratings, genres, and platforms (such as Xbox or PlayStation) are available from open sources. It is necessary in the course of a research project to determine the patterns that determine the success of the game. Then help you make a choice in favor of whom to bet on a potentially popular product and plan advertising campaigns.
 
-Here is the data up to 2016. Let's say it's December 2016, and you're planning a campaign for 2017. You need to work out the principle of working with data. It doesn't matter if you forecast sales for 2017 based on 2016 data or 2027 based on 2026 data.
-The data set includes the abbreviation ESRB (Entertainment Software Rating Board) - an association that determines the age rating of computer games. ESRB evaluates game content and assigns it a suitable age category, for example, "For adults", "For young children" or "For teenagers".
+The data is provided until 2016. The first month is December 2016, and the campaign is planned for 2017. We need to work out the principle of working with data.
+The data set includes the abbreviation ESRB ( Entertainment Software Rating Board) - an association that determines the age rating of computer games. ESRB evaluates game content and assigns it a suitable age category, for example, "For adults", "For young children" or "For teenagers".
 
 
 Data description
